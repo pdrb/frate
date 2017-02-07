@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# frate 0.1
+# frate 0.2
 # author: Pedro Buteri Gonring
 # email: pedro@bigode.net
 # date: 07/02/2017
@@ -11,7 +11,7 @@ import optparse
 import os
 
 
-version = '0.1'
+version = '0.2'
 
 
 # Parse and validate arguments
