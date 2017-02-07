@@ -66,4 +66,4 @@ Notes
 -----
 
 - Works on Python 2
-- Tested on Linux
+- Tested on Linux and Windows (Cygwin)
