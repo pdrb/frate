@@ -1,7 +1,7 @@
 frate
 =======
 
-Python script to measure file growing rate in real time.
+Measure file growing rate in real time.
 
 Show the number of lines and KB per second the file is growing.
 
