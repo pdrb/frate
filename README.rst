@@ -17,6 +17,13 @@ Simple example::
     Lines: 195.0/s, Avg: 174.6/s | Write: 18.5KB/s, Avg: 16.5KB/s
 
 
+Notes
+=====
+
+- Works on Python 2 and Python 3
+- Tested on Linux and Windows (Cygwin)
+
+
 Install
 =======
 
@@ -49,13 +56,6 @@ Usage
     Options:
     --version   show program's version number and exit
     -h, --help  show this help message and exit
-
-
-Notes
-=====
-
-- Works on Python 2 and Python 3
-- Tested on Linux and Windows (Cygwin)
 
 
 .. |Downloads| image:: https://pepy.tech/badge/frate
