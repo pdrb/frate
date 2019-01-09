@@ -1,9 +1,9 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
-# frate 0.2
+# frate 0.3
 # author: Pedro Buteri Gonring
 # email: pedro@bigode.net
-# date: 07/02/2017
+# date: 20190108
 
 import time
 import sys
@@ -11,7 +11,7 @@ import optparse
 import os
 
 
-version = '0.2'
+version = '0.3'
 
 
 # Parse and validate arguments
@@ -47,11 +47,11 @@ def cli():
     if os.path.isfile(filename):
         try:
             file = open(filename, 'r')
-        except Exception, ex:
-            print ex
+        except Exception as ex:
+            print(ex)
             sys.exit(1)
     else:
-        print '\nerror: %s is not a file' % filename
+        print('\nerror: %s is not a file or does not exist' % filename)
         sys.exit(1)
 
     sys.stdout.write('\n')
@@ -97,7 +97,7 @@ def cli():
             )
             sys.stdout.flush()
         except KeyboardInterrupt:
-            print '\nQuit.\n'
+            print('\nQuit.\n')
             sys.exit(0)
 
 
