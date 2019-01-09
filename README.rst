@@ -21,7 +21,7 @@ Notes
 =====
 
 - Works on Python 2 and Python 3
-- Tested on Linux and Windows (Cygwin)
+- Uses only Python standard library for maximum compatibility
 
 
 Install
